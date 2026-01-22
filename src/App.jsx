@@ -5,10 +5,6 @@ const App = () => {
   const [count, setCount] = useState(1);
   const [text, setText] = useState([]);
 
-  const handleChange = () => {
-    console.log(1);
-  };
-
   return (
     <section className="section-center">
       <h4>Tired of boring Lorem ipsum?</h4>
